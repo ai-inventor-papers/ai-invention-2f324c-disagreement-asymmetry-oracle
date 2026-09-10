@@ -1,0 +1,91 @@
+{
+  "total_configs": 719,
+  "configs_with_disagreements": 652,
+  "mean_inverted_rule_acc": 0.48998554211207923,
+  "std_inverted_rule_acc": 0.22835093326418876,
+  "mean_original_rule_acc": 0.4903491018241808,
+  "mean_confidence_based_acc": 0.5426887237087102,
+  "mean_always_accurate_acc": 0.6731627217145552,
+  "mean_majority_prior_acc": 0.4903491018241808,
+  "mean_raw_p_value": 0.6162181711065646,
+  "frac_significant_raw": 0.10276073619631902,
+  "frac_significant_bh": 1.0,
+  "mean_num_disagreements": 12.496522948539639,
+  "per_dataset": {
+    "stanfordnlp_sst2": {
+      "mean_inverted_acc": 0.4755720649728407,
+      "mean_original_acc": 0.5186596415726297,
+      "mean_confidence_acc": 0.5249161086137689,
+      "num_configs": 203
+    },
+    "stanfordnlp_imdb": {
+      "mean_inverted_acc": 0.5128308345326356,
+      "mean_original_acc": 0.4767860453071873,
+      "mean_confidence_acc": 0.5669662869607942,
+      "num_configs": 230
+    },
+    "zeroshot_twitter-financial-news-sentiment": {
+      "mean_inverted_acc": 0.47935320696384864,
+      "mean_original_acc": 0.4783512179427802,
+      "mean_confidence_acc": 0.5336658986689558,
+      "num_configs": 219
+    }
+  },
+  "per_model_pair": {
+    "lr_vs_rf": {
+      "mean_inverted_acc": 0.5066230429660221,
+      "mean_original_acc": 0.4674241901130004,
+      "mean_confidence_acc": 0.5477568193000859,
+      "num_configs": 326
+    },
+    "nb_vs_svm": {
+      "mean_inverted_acc": 0.47334804125813645,
+      "mean_original_acc": 0.513274013535361,
+      "mean_confidence_acc": 0.5376206281173345,
+      "num_configs": 326
+    }
+  },
+  "per_sample_size": {
+    "100": {
+      "mean_inverted_acc": 0.4156679501961365,
+      "mean_original_acc": 0.5366581868113731,
+      "num_configs": 144
+    },
+    "200": {
+      "mean_inverted_acc": 0.5224025190514578,
+      "mean_original_acc": 0.47027547023566735,
+      "num_configs": 151
+    },
+    "500": {
+      "mean_inverted_acc": 0.5028986757545835,
+      "mean_original_acc": 0.47460231866713964,
+      "num_configs": 177
+    },
+    "1000": {
+      "mean_inverted_acc": 0.5095474591305589,
+      "mean_original_acc": 0.48562571710476987,
+      "num_configs": 180
+    }
+  },
+  "per_imbalance_ratio": {
+    "1.0": {
+      "mean_inverted_acc": 0.47271954860945,
+      "mean_original_acc": 0.47271954860945,
+      "num_configs": 235
+    },
+    "1.5": {
+      "mean_inverted_acc": 0.5224497851883696,
+      "mean_original_acc": 0.4775502148116303,
+      "num_configs": 223
+    },
+    "2.0": {
+      "mean_inverted_acc": 0.4735833888497345,
+      "mean_original_acc": 0.5264166111502655,
+      "num_configs": 194
+    }
+  },
+  "correlation_imbalance_vs_inverted_acc": -0.13324492970394244,
+  "correlation_p_value": 0.0003401612369027749,
+  "correlation_sample_size_vs_inverted_acc": 0.21508553173401296,
+  "correlation_size_p_value": 5.690004858373051e-09
+}
