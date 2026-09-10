@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "description": "Sentiment datasets for disagreement asymmetry experiment",
+    "num_datasets": 3,
+    "total_examples": 95714,
+    "task": "binary_sentiment_classification"
+  },
+  "datasets": [
+    {
+      "dataset": "stanfordnlp_sst2",
+      "examples": [
+        {
+          "input": "hide new secretions from the parental units ",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_domain": "movie_review_sentences",
+          "metadata_example_id": "16bb5e7d"
+        },
+        {
+          "input": "contains no wit , only labored gags ",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_domain": "movie_review_sentences",
+          "metadata_example_id": "14d4f20c"
+        },
+        {
+          "input": "that loves its characters and communicates something rather beautiful about human nature ",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_domain": "movie_review_sentences",
+          "metadata_example_id": "48fbfe20"
+        }
+      ]
+    },
+    {
+      "dataset": "stanfordnlp_imdb",
+      "examples": [
+        {
+          "input": "I rented I AM CURIOUS-YELLOW from my video store because of all the controversy that surrounded it when it was first released in 1967. I also heard that at first it was seized by U.S. customs if it ev...",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_domain": "movie_reviews",
+          "metadata_example_id": "dbc3153c"
+        },
+        {
+          "input": "\"I Am Curious: Yellow\" is a risible and pretentious steaming pile. It doesn't matter what one's political views are because this film can hardly be taken seriously on any level. As for the claim that ...",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_domain": "movie_reviews",
+          "metadata_example_id": "4952647f"
+        },
+        {
+          "input": "If only to avoid making this type of film in the future. This film is interesting as an experiment but tells no cogent story.<br /><br />One might feel virtuous for sitting thru it because it touches ...",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_domain": "movie_reviews",
+          "metadata_example_id": "5e7bb381"
+        }
+      ]
+    },
+    {
+      "dataset": "zeroshot_twitter-financial-news-sentiment",
+      "examples": [
+        {
+          "input": "$BYND - JPMorgan reels in expectations on Beyond Meat https://t.co/bd0xbFGjkT",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0,
+          "metadata_domain": "financial_tweets",
+          "metadata_example_id": "2f9979b5"
+        },
+        {
+          "input": "$CCL $RCL - Nomura points to bookings weakness at Carnival and Royal Caribbean https://t.co/yGjpT2ReD3",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1,
+          "metadata_domain": "financial_tweets",
+          "metadata_example_id": "dd3a36bd"
+        },
+        {
+          "input": "$CX - Cemex cut at Credit Suisse, J.P. Morgan on weak building outlook https://t.co/KN1g4AWFIb",
+          "output": "0",
+          "metadata_fold": 2,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2,
+          "metadata_domain": "financial_tweets",
+          "metadata_example_id": "58f5d984"
+        }
+      ]
+    }
+  ]
+}
