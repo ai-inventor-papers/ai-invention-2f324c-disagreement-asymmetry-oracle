@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "method_name": "inverted_disagreement_asymmetry_oracle",
+    "description": "Testing inverted disagreement asymmetry hypothesis: trust simpler model when it predicts minority class, trust complex model when it predicts majority class",
+    "parameters": {
+      "sample_sizes": [
+        100
+      ],
+      "imbalance_ratios": [
+        1.0
+      ],
+      "seeds": [
+        0
+      ],
+      "model_pairs": [
+        "lr_vs_rf",
+        "nb_vs_svm"
+      ]
+    },
+    "datasets": [
+      "stanfordnlp_sst2",
+      "stanfordnlp_imdb",
+      "zeroshot_twitter-financial-news-sentiment"
+    ],
+    "total_configs": 12,
+    "successful_configs": 12,
+    "failed_configs": 0
+  },
+  "datasets": [
+    {
+      "dataset": "stanfordnlp_sst2",
+      "examples": [
+        {
+          "input": "though it 's not very well shot or composed or edited ",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_sample_size": 100,
+          "metadata_imbalance_ratio": 1.0,
+          "metadata_seed": 0,
+          "metadata_model_pair": "nb_vs_svm",
+          "metadata_dataset": "stanfordnlp_sst2",
+          "metadata_majority_class": "0",
+          "metadata_minority_class": "0",
+          "metadata_disagreement_type": "simple_says_minority",
+          "metadata_acc_a_disagree": "0.6000",
+          "metadata_acc_b_disagree": "0.4000",
+          "metadata_majority_prior_acc": "0.1500",
+          "predict_model_a": "0",
+          "predict_model_b": "1",
+          "predict_inverted_rule": "0",
+          "predict_original_rule": "0",
+          "predict_confidence_based": "0",
+          "predict_always_accurate": "0",
+          "predict_majority_prior": "0",
+          "predict_correct": "True",
+          "metadata_model_a_prob": "0.5828",
+          "metadata_model_b_prob": "0.5025",
+          "metadata_simple_pred": "0",
+          "metadata_complex_pred": "1"
+        },
+        {
+          "input": "if you 're not a fan , it might be like trying to eat brussels sprouts . ",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_sample_size": 100,
+          "metadata_imbalance_ratio": 1.0,
+          "metadata_seed": 0,
+          "metadata_model_pair": "nb_vs_svm",
+          "metadata_dataset": "stanfordnlp_sst2",
+          "metadata_majority_class": "0",
+          "metadata_minority_class": "0",
+          "metadata_disagreement_type": "simple_says_minority",
+          "metadata_acc_a_disagree": "0.6000",
+          "metadata_acc_b_disagree": "0.4000",
+          "metadata_majority_prior_acc": "0.1500",
+          "predict_model_a": "0",
+          "predict_model_b": "1",
+          "predict_inverted_rule": "0",
+          "predict_original_rule": "0",
+          "predict_confidence_based": "1",
+          "predict_always_accurate": "0",
+          "predict_majority_prior": "0",
+          "predict_correct": "True",
+          "metadata_model_a_prob": "0.5204",
+          "metadata_model_b_prob": "0.5507",
+          "metadata_simple_pred": "0",
+          "metadata_complex_pred": "1"
+        }
+      ]
+    },
+    {
+      "dataset": "stanfordnlp_imdb",
+      "examples": [
+        {
+          "input": "\"Happenstance\" is the most New York-feeling Parisian film I've seen since \"When the Cat's Away (Chacun cherche son chat). \"<br /><br />A film from last year released now to capitalize on the attention...",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_sample_size": 100,
+          "metadata_imbalance_ratio": 1.0,
+          "metadata_seed": 0,
+          "metadata_model_pair": "lr_vs_rf",
+          "metadata_dataset": "stanfordnlp_imdb",
+          "metadata_majority_class": "0",
+          "metadata_minority_class": "0",
+          "metadata_disagreement_type": "simple_says_minority",
+          "metadata_acc_a_disagree": "0.8000",
+          "metadata_acc_b_disagree": "0.2000",
+          "metadata_majority_prior_acc": "0.1000",
+          "predict_model_a": "0",
+          "predict_model_b": "1",
+          "predict_inverted_rule": "0",
+          "predict_original_rule": "0",
+          "predict_confidence_based": "1",
+          "predict_always_accurate": "0",
+          "predict_majority_prior": "0",
+          "predict_correct": "False",
+          "metadata_model_a_prob": "0.7320",
+          "metadata_model_b_prob": "0.7344",
+          "metadata_simple_pred": "0",
+          "metadata_complex_pred": "1"
+        },
+        {
+          "input": "Cheap and mind-blisteringly dull story and acting. Not a single good line, not even a line bad enough to be good, and no memorable delivery. Even the blooper reel included with the DVD showed how inep...",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_sample_size": 100,
+          "metadata_imbalance_ratio": 1.0,
+          "metadata_seed": 0,
+          "metadata_model_pair": "lr_vs_rf",
+          "metadata_dataset": "stanfordnlp_imdb",
+          "metadata_majority_class": "0",
+          "metadata_minority_class": "0",
+          "metadata_disagreement_type": "simple_says_minority",
+          "metadata_acc_a_disagree": "0.8000",
+          "metadata_acc_b_disagree": "0.2000",
+          "metadata_majority_prior_acc": "0.1000",
+          "predict_model_a": "0",
+          "predict_model_b": "1",
+          "predict_inverted_rule": "0",
+          "predict_original_rule": "0",
+          "predict_confidence_based": "0",
+          "predict_always_accurate": "0",
+          "predict_majority_prior": "0",
+          "predict_correct": "True",
+          "metadata_model_a_prob": "0.6144",
+          "metadata_model_b_prob": "0.5910",
+          "metadata_simple_pred": "0",
+          "metadata_complex_pred": "1"
+        }
+      ]
+    },
+    {
+      "dataset": "zeroshot_twitter-financial-news-sentiment",
+      "examples": [
+        {
+          "input": "Synaptics stock price target raised to $40 from $32 at J.P. Morgan",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_sample_size": 100,
+          "metadata_imbalance_ratio": 1.0,
+          "metadata_seed": 0,
+          "metadata_model_pair": "lr_vs_rf",
+          "metadata_dataset": "zeroshot_twitter-financial-news-sentiment",
+          "metadata_majority_class": "0",
+          "metadata_minority_class": "0",
+          "metadata_disagreement_type": "complex_says_majority",
+          "metadata_acc_a_disagree": "0.5000",
+          "metadata_acc_b_disagree": "0.5000",
+          "metadata_majority_prior_acc": "0.0000",
+          "predict_model_a": "1",
+          "predict_model_b": "0",
+          "predict_inverted_rule": "0",
+          "predict_original_rule": "0",
+          "predict_confidence_based": "1",
+          "predict_always_accurate": "1",
+          "predict_majority_prior": "0",
+          "predict_correct": "False",
+          "metadata_model_a_prob": "0.6899",
+          "metadata_model_b_prob": "0.6660",
+          "metadata_simple_pred": "1",
+          "metadata_complex_pred": "0"
+        },
+        {
+          "input": "$PSTV could squeeze over 2.25 https://t.co/zoCKVAuApH",
+          "output": "1",
+          "metadata_fold": 0,
+          "metadata_sample_size": 100,
+          "metadata_imbalance_ratio": 1.0,
+          "metadata_seed": 0,
+          "metadata_model_pair": "lr_vs_rf",
+          "metadata_dataset": "zeroshot_twitter-financial-news-sentiment",
+          "metadata_majority_class": "0",
+          "metadata_minority_class": "0",
+          "metadata_disagreement_type": "simple_says_minority",
+          "metadata_acc_a_disagree": "0.5000",
+          "metadata_acc_b_disagree": "0.5000",
+          "metadata_majority_prior_acc": "0.0000",
+          "predict_model_a": "0",
+          "predict_model_b": "1",
+          "predict_inverted_rule": "0",
+          "predict_original_rule": "0",
+          "predict_confidence_based": "0",
+          "predict_always_accurate": "0",
+          "predict_majority_prior": "0",
+          "predict_correct": "False",
+          "metadata_model_a_prob": "0.6205",
+          "metadata_model_b_prob": "0.6042",
+          "metadata_simple_pred": "0",
+          "metadata_complex_pred": "1"
+        }
+      ]
+    }
+  ]
+}
