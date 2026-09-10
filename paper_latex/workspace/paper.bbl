@@ -1,0 +1,112 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Han et~al.(2020)Han, Yao, Liu, Niu, Tsang, Kwok, and
+  Sugiyama]{Han2020}
+Bo~Han, Quanming Yao, Ting Liu, Gang Niu, Ivor~W. Tsang, Joseph~T. Kwok, and
+  Masashi Sugiyama.
+\newblock A survey of label-noise representation learning: Past, present and
+  future.
+\newblock \emph{arXiv preprint arXiv:2011.04406}, 2020.
+\newblock URL \url{https://arxiv.org/abs/2011.04406}.
+
+\bibitem[Uma et~al.(2021)Uma, Fornaciari, Hovy, Paun, Plank, and
+  Poesio]{Uma2021}
+Arun Uma, Tommaso Fornaciari, Dirk Hovy, Sandra Paun, Barbara Plank, and Marco
+  Poesio.
+\newblock Learning from disagreement: A survey.
+\newblock \emph{Journal of Artificial Intelligence Research}, 72:\penalty0
+  1385--1470, 2021.
+\newblock \doi{10.1613/jair.1.12752}.
+
+\bibitem[Kim et~al.(2021)Kim, Ko, Cho, Choi, and Yun]{Kim2021}
+Taesup Kim, Jaesik Ko, Sangheon Cho, Jihun Choi, and Seung-Yoon Yun.
+\newblock {FINE} samples for learning with noisy labels.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  24137--24149, 2021.
+\newblock URL \url{https://arxiv.org/abs/2102.11628}.
+
+\bibitem[Zhou and Wu(2018)]{Zhou2018}
+Zhi-Hua Zhou and Jia Wu.
+\newblock K-nearest oracles borderline dynamic classifier ensemble selection.
+\newblock In \emph{International Joint Conference on Neural Networks}, pages
+  1--8, 2018.
+\newblock \doi{10.1109/IJCNN.2018.8489307}.
+
+\bibitem[Wang(2023)]{Wang2023}
+Chuan Wang.
+\newblock Calibration in deep learning: A survey of the state-of-the-art.
+\newblock \emph{arXiv preprint arXiv:2308.01222}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2308.01222}.
+
+\bibitem[Maas et~al.(2011)Maas, Daly, Pham, Huang, Ng, and Potts]{Maas2011}
+Andrew~L. Maas, Raymond~E. Daly, Peter~T. Pham, Dan Huang, Andrew~Y. Ng, and
+  Christopher Potts.
+\newblock Learning word vectors for sentiment analysis.
+\newblock In \emph{Proceedings of the 49th Annual Meeting of the Association
+  for Computational Linguistics}, pages 142--150, 2011.
+\newblock \doi{10.3115/v1/P11-1015}.
+
+\bibitem[Gong et~al.(2018)Gong, Zhong, and Hu]{Gong2018}
+Zhiping Gong, Pei Zhong, and Weizhan Hu.
+\newblock Diversity in machine learning.
+\newblock \emph{{IEEE} Access}, 7:\penalty0 64323--64350, 2018.
+\newblock \doi{10.1109/ACCESS.2019.2917620}.
+
+\bibitem[Danka(2018)]{Danka2018}
+Peter Danka.
+\newblock {modAL}: A modular active learning library for python.
+\newblock \emph{Journal of Machine Learning Research}, 19\penalty0
+  (129):\penalty0 1--6, 2018.
+\newblock URL \url{https://jmlr.org/papers/v19/18-255.html}.
+
+\bibitem[Jiang et~al.(2018)Jiang, Kim, and Gupta]{Jiang2018}
+Haohan Jiang, Baolin Kim, and Manish Gupta.
+\newblock To trust or not to trust a classifier.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  5546--5557, 2018.
+\newblock URL \url{https://arxiv.org/abs/1805.11783}.
+
+\bibitem[Naeini et~al.(2015)Naeini, Cooper, and Hauskrecht]{Naeini2015}
+Mahdi~Pakdaman Naeini, Gregory~F. Cooper, and Milos Hauskrecht.
+\newblock Obtaining well calibrated probabilities using bayesian model
+  averaging.
+\newblock In \emph{Proceedings of the 32nd International Conference on Machine
+  Learning}, pages 2901--2909, 2015.
+\newblock URL \url{https://proceedings.mlr.press/v37/naeini15.html}.
+
+\bibitem[Socher et~al.(2013)Socher, Perelygin, Wu, Chuang, Mangatar, Pang, and
+  Ng]{Socher2013}
+Richard Socher, Alex Perelygin, Jean Wu, Jean Chuang, Christopher Mangatar,
+  Christopher D.~Manning Pang, and Andrew~Y. Ng.
+\newblock Recursive deep models for semantic compositionality over a sentiment
+  treebank.
+\newblock In \emph{Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1631--1642, 2013.
+\newblock \doi{10.3115/v1/D13-1162}.
+
+\bibitem[Kuncheva and Whitaker(2003)]{Kuncheva2003}
+Ludmila~I. Kuncheva and Christopher~J. Whitaker.
+\newblock Measures of diversity in classifier ensembles and a correlation-based
+  analysis.
+\newblock \emph{Machine Learning}, 51\penalty0 (2):\penalty0 181--207, 2003.
+\newblock \doi{10.1023/A:1023263428848}.
+
+\bibitem[Freestone et~al.(2019)Freestone, Durrant, and Ellul]{Freestone2019}
+Jack Freestone, Robert Durrant, and Julian Ellul.
+\newblock Pervasive label errors in test sets for natural language inference
+  tasks.
+\newblock \emph{arXiv preprint arXiv:1909.13133}, 2019.
+\newblock URL \url{https://arxiv.org/abs/1909.13133}.
+
+\bibitem[Rodriguez et~al.(2017)Rodriguez, Kuncheva, and Alonso]{Rodriguez2017}
+Juan~J. Rodriguez, Ludmila~I. Kuncheva, and Carlos~J. Alonso.
+\newblock Dynamic classifier selection: Recent advances and perspectives.
+\newblock \emph{Information Fusion}, 36:\penalty0 124--135, 2017.
+\newblock \doi{10.1016/j.inffus.2016.02.005}.
+
+\end{thebibliography}

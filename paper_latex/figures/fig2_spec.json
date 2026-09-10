@@ -1,0 +1,22 @@
+{
+  "title": "Overall Accuracy Comparison",
+  "xlabel": "Accuracy (%)",
+  "aspect": "16:9",
+  "categories": [
+    "Oracle (always-trust-accurate)",
+    "Confidence baseline",
+    "Inverted directional rule",
+    "Original directional rule",
+    "Majority prior"
+  ],
+  "values": [67.3, 54.3, 49.0, 49.0, 49.0],
+  "errors": [0, 0, 22.8, 22.8, 0],
+  "colors": ["green", "blue", "orange", "orange", "gray"],
+  "vertical_line": {
+    "x": 49.0,
+    "color": "black",
+    "linestyle": "--",
+    "linewidth": 1.0,
+    "label": "Majority prior"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "custom",
+  "title": "Feature Confound Analysis",
+  "aspect": "4:3",
+  "width_in": 7,
+  "description": "Side-by-side bar chart comparing previous study (unmatched features) vs current study (matched features). Previous study: Original rule = 42.4% (red). Current study: Original rule = 49.0% (orange), Inverted rule = 49.0% (blue). Horizontal dashed lines at 50.0% (Chance level) and 49.0% (Majority prior). Annotation arrow showing +6.6 pp feature confound effect.",
+  "data": {
+    "groups": [
+      {
+        "label": "Previous Study (unmatched features)",
+        "bars": [
+          {"label": "Original rule", "value": 42.4, "color": "#DE8F05"}
+        ]
+      },
+      {
+        "label": "Current Study (matched features)",
+        "bars": [
+          {"label": "Original rule", "value": 49.0, "color": "#0173B2"},
+          {"label": "Inverted rule", "value": 49.0, "color": "#029E73"}
+        ]
+      }
+    ],
+    "reference_lines": [
+      {"y": 50.0, "label": "Chance level", "color": "#949494", "linestyle": "--"},
+      {"y": 49.0, "label": "Majority prior", "color": "#CC78BC", "linestyle": "--"}
+    ],
+    "annotation": {
+      "from": {"group": "Previous Study", "value": 42.4},
+      "to": {"group": "Current Study", "value": 49.0, "bar": "Original rule"},
+      "label": "Feature confound effect: +6.6 pp"
+    },
+    "y_range": [35, 60]
+  }
+}

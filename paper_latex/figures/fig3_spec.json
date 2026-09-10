@@ -1,0 +1,22 @@
+{
+  "type": "bar",
+  "title": "Per-Dataset Accuracy Breakdown",
+  "xlabel": "Dataset",
+  "ylabel": "Accuracy (%)",
+  "aspect": "16:9",
+  "categories": ["SST-2", "IMDB", "Twitter Financial News"],
+  "series": [
+    {
+      "label": "Inverted rule",
+      "values": [47.6, 51.3, 47.9]
+    },
+    {
+      "label": "Original rule",
+      "values": [51.9, 47.7, 47.8]
+    },
+    {
+      "label": "Confidence baseline",
+      "values": [52.5, 56.7, 53.4]
+    }
+  ]
+}
